@@ -1,6 +1,6 @@
 <template>
-  <div id="view-about">
-    <h1>About</h1>
+  <div id="view-privacy-policy">
+    <h1>Privacy Policy</h1>
     <hr />
     <NoContentWarning />
   </div>
@@ -10,7 +10,7 @@
 import NoContentWarning from "@/components/NoContentWarning.vue";
 
 export default {
-  name: "AboutView",
+  name: "PrivacyPolicyView",
   components: {
     NoContentWarning,
   },
