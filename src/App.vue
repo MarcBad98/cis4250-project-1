@@ -3,11 +3,7 @@
     <div id="view" class="section content" :class="{ collapsed: isCollapsed }">
       <router-view />
     </div>
-    <SidebarMenu
-      :menu="menu"
-      :collapsed="isCollapsed"
-      @toggle-collapse="onCollapse()"
-    >
+    <SidebarMenu :menu="menu" :collapsed="true" @toggle-collapse="onCollapse()">
       <div slot="header">
         <b-image :src="require('@/assets/logo-placeholder.png')"></b-image>
       </div>
@@ -79,7 +75,7 @@ export default {
           ],
         },
       ],
-      isCollapsed: false,
+      isCollapsed: true,
     };
   },
   methods: {
