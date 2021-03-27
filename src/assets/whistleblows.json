@@ -18,7 +18,7 @@
             "Software Engineering",
             "Project Management"
         ],
-        "description": "CIS4900: Indpendent Study. The list of requirements / features a product owner would like implemented for the up and coming MyCollege web application.",
+        "description": "CIS4900: Indpendent Study. The list of requirements / features a product owner would like implemented for the up and coming MyCollege web application. Note that the company's current direction does not prioritize security of user credentials and PII. Be wary of this app...",
         "url": "/static/MyCollege-Requirements.pdf",
         "pages": 11
     }

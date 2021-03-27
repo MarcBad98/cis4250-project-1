@@ -1,9 +1,8 @@
 <template>
   <div id="view-home">
     <DemoWarning />
-    <h1>Home</h1>
+    <h1 class="title">Home</h1>
     <hr />
-    <h2>Recent Whistleblows</h2>
     <div v-for="whistleblow in whistleblows" v-bind:key="whistleblow.id">
       <GenericCard :title="whistleblow.title">
         <b-taglist>

@@ -6,7 +6,9 @@
     <b-field label="Tags">
       <b-taginput
         v-model="whistleblow.tags"
+        type="is-info"
         maxtags="5"
+        rounded
         :readonly="readonly"
         :closable="!readonly"
       ></b-taginput>
@@ -30,7 +32,7 @@
         </section>
       </b-upload>
     </b-field>
-    <b-field label="Acknowledgment">
+    <b-field label="Acknowledgment" v-if="!readonly">
       <b-checkbox v-model="hasAcknowledged">
         I accept the terms and conditions laid out in the
         <router-link :to="{ name: 'UserAgreement' }" target="_blank">
@@ -75,14 +77,17 @@ export default {
   methods: {
     onClick() {
       this.$buefy.dialog.confirm({
-        type: "is-warning",
+        type: "is-danger",
+        hasIcon: true,
         message:
-          "<strong>🚧 Final Warning 🚧</strong><br />Are you sure you want to submit this whistleblow?",
+          "<strong>Final Warning</strong><br />Are you sure you want to submit this whistleblow?",
         onCancel: () =>
-          this.$buefy.snackbar.open("Cancelled! No whistleblow uploaded."),
+          this.$buefy.snackbar.open(
+            "The operation was cancelled. Nothing was uploaded."
+          ),
         onConfirm: () =>
           this.$buefy.snackbar.open(
-            "Confirmed! Your whistleblow was uploaded."
+            "The operation was confirmed. Your whistleblow was now uploaded."
           ),
       });
     },

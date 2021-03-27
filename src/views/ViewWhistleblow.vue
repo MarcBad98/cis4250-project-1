@@ -1,13 +1,13 @@
 <template>
   <div id="view-view-whistleblow">
     <DemoWarning />
-    <h1>View Whistleblow</h1>
+    <h1 class="title">View Whistleblow</h1>
     <hr />
-    <b-tabs>
-      <b-tab-item label="Form">
+    <b-tabs type="is-boxed">
+      <b-tab-item label="Form" icon-pack="fas" icon="pen-square">
         <WhistleblowForm readonly :whistleblow="whistleblow" />
       </b-tab-item>
-      <b-tab-item label="Evidence">
+      <b-tab-item label="Evidence" icon-pack="fas" icon="file-pdf">
         <div class="box has-background-light">
           <div
             class="pdf-page"
@@ -18,7 +18,7 @@
           </div>
         </div>
       </b-tab-item>
-      <b-tab-item label="JSON">
+      <b-tab-item label="JSON" icon-pack="fas" icon="code">
         <pre>{{ whistleblow }}</pre>
       </b-tab-item>
     </b-tabs>
