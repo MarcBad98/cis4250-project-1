@@ -1,5 +1,6 @@
 <template>
   <div id="view-user-agreement">
+    <DemoWarning />
     <h1>User Agreement</h1>
     <hr />
     <p>
@@ -116,7 +117,12 @@
 </template>
 
 <script>
+import DemoWarning from "@/components/DemoWarning.vue";
+
 export default {
   name: "UserAgreementView",
+  components: {
+    DemoWarning,
+  },
 };
 </script>

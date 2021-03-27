@@ -1,5 +1,6 @@
 <template>
   <div id="view-privacy-policy">
+    <DemoWarning />
     <h1>Privacy Policy</h1>
     <hr />
     <p>
@@ -390,7 +391,12 @@
 </template>
 
 <script>
+import DemoWarning from "@/components/DemoWarning.vue";
+
 export default {
   name: "PrivacyPolicyView",
+  components: {
+    DemoWarning,
+  },
 };
 </script>
