@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import FAQ from '../views/FAQ.vue'
+import ContactUs from '../views/ContactUs.vue'
 import Whistleblow from '../views/Whistleblow.vue'
 import ViewWhistleblow from '../views/ViewWhistleblow.vue';
 import UserAgreement from '../views/UserAgreement.vue'
@@ -25,6 +26,11 @@ const routes = [
     path: '/faq',
     name: 'FAQ',
     component: FAQ
+  },
+  {
+    path: '/contact-us',
+    name: 'ContactUs',
+    component: ContactUs
   },
   {
     path: '/whistleblow',

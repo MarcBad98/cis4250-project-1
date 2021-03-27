@@ -5,7 +5,7 @@
     </div>
     <SidebarMenu :menu="menu" :collapsed="true" @toggle-collapse="onCollapse()">
       <div slot="header">
-        <b-image :src="require('@/assets/logo-placeholder.png')"></b-image>
+        <b-image :src="require('@/assets/logo.png')"></b-image>
       </div>
     </SidebarMenu>
   </div>
@@ -58,6 +58,11 @@ export default {
         //   title: "FAQ",
         //   icon: "fas fa-question-circle",
         // },
+        {
+          href: { name: "ContactUs" },
+          title: "Contact Us",
+          icon: "fas fa-phone",
+        },
         {
           title: "Policies",
           icon: "fas fa-balance-scale",
