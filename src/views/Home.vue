@@ -1,7 +1,7 @@
 <template>
   <div id="view-home">
     <DemoWarning />
-    <h1 class="title">Home</h1>
+    <h1 class="title">Welcome to Whistlechain</h1>
     <hr />
     <div v-for="whistleblow in whistleblows" v-bind:key="whistleblow.id">
       <GenericCard :title="whistleblow.title">
