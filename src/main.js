@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import Buefy from 'buefy';
-import 'buefy/dist/buefy.css';
-import '@mdi/font/css/materialdesignicons.css';
+import Buefy from 'buefy'
+import './scss/main.scss'
+import '@mdi/font/css/materialdesignicons.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 
 Vue.config.productionTip = false

@@ -52,16 +52,16 @@ export default {
           title: "Whistleblow",
           icon: "fas fa-file-pdf",
         },
-        {
-          href: { name: "About" },
-          title: "About",
-          icon: "fas fa-info-circle",
-        },
-        {
-          href: { name: "FAQ" },
-          title: "FAQ",
-          icon: "fas fa-question-circle",
-        },
+        // {
+        //   href: { name: "About" },
+        //   title: "About",
+        //   icon: "fas fa-info-circle",
+        // },
+        // {
+        //   href: { name: "FAQ" },
+        //   title: "FAQ",
+        //   icon: "fas fa-question-circle",
+        // },
         {
           title: "Policies",
           icon: "fas fa-balance-scale",

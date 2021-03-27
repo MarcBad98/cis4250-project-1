@@ -1,18 +1,21 @@
 <template>
   <div id="view-whistleblow">
+    <DemoWarning />
     <h1>Whistleblow</h1>
     <hr />
-    <NoContentWarning />
+    <WhistleblowForm />
   </div>
 </template>
 
 <script>
-import NoContentWarning from "@/components/NoContentWarning.vue";
+import DemoWarning from "@/components/DemoWarning.vue";
+import WhistleblowForm from "@/components/WhistleblowForm.vue";
 
 export default {
   name: "WhistleblowView",
   components: {
-    NoContentWarning,
+    DemoWarning,
+    WhistleblowForm,
   },
 };
 </script>

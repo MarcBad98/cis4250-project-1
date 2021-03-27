@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import FAQ from '../views/FAQ.vue'
 import Whistleblow from '../views/Whistleblow.vue'
+import ViewWhistleblow from '../views/ViewWhistleblow.vue';
 import UserAgreement from '../views/UserAgreement.vue'
 import PrivacyPolicy from '../views/PrivacyPolicy.vue'
 
@@ -29,6 +30,11 @@ const routes = [
     path: '/whistleblow',
     name: 'Whistleblow',
     component: Whistleblow
+  },
+  {
+    path: '/whistleblow/:id',
+    name: 'ViewWhistleblow',
+    component: ViewWhistleblow
   },
   {
     path: '/user-agreement',

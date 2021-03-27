@@ -8,17 +8,18 @@
             "USF"
         ],
         "description": "CIS4250: Ethical Issues & Professional Conduct. A student's submission for the EOT Worksheet 1 assignment.",
-        "filename": "EOT Worksheet 1.pdf"
+        "url": "/static/EOT1.pdf",
+        "pages": 3
     },
     {
         "id": "ed3853bc-efeb-4dfc-bec6-2de55aaf2d83",
-        "title": "Someone's EOT Worksheet 2",
+        "title": "The MyCollege Requirements Documentation",
         "tags": [
-            "Ethics",
-            "Academics",
-            "USF"
+            "Software Engineering",
+            "Project Management"
         ],
-        "description": "CIS4250: Ethical Issues & Professional Conduct. A student's submission for the EOT Worksheet 2 assignment.",
-        "filename": "EOT Worksheet 2.pdf"
+        "description": "CIS4900: Indpendent Study. The list of requirements / features a product owner would like implemented for the up and coming MyCollege web application.",
+        "url": "/static/MyCollege-Requirements.pdf",
+        "pages": 11
     }
 ]
