@@ -8,7 +8,7 @@
             "USF"
         ],
         "description": "CIS4250: Ethical Issues & Professional Conduct. A student's submission for the EOT Worksheet 1 assignment.",
-        "url": "/static/EOT1.pdf",
+        "url": "/cis4250-project-1/static/EOT1.pdf",
         "pages": 3
     },
     {
@@ -19,7 +19,7 @@
             "Project Management"
         ],
         "description": "CIS4900: Indpendent Study. The list of requirements / features a product owner would like implemented for the up and coming MyCollege web application. Note that the company's current direction does not prioritize security of user credentials and PII. Be wary of this app...",
-        "url": "/static/MyCollege-Requirements.pdf",
+        "url": "/cis4250-project-1/static/MyCollege-Requirements.pdf",
         "pages": 11
     },
     {
@@ -31,7 +31,7 @@
             "USF"
         ],
         "description": "Project description and rubric for the dreaded CIS4250 group projects.",
-        "url": "/static/CIS4250-Project.pdf",
+        "url": "/cis4250-project-1/static/CIS4250-Project.pdf",
         "pages": 2
     }
 ]
